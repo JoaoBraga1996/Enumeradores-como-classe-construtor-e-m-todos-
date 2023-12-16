@@ -1,0 +1,14 @@
+package principal;
+
+import entities.DiaSemana;
+
+public class Program {
+	
+	public static void main(String[] args) {
+		DiaSemana dia = DiaSemana.DOMINGO;
+		
+		
+		System.out.println(dia.toString() + " - " + dia.getValor());
+	}
+
+}
